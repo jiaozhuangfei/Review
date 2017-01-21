@@ -1,3 +1,4 @@
+/*公共样式*/
 html, body{font-family: "Microsoft YaHei";}
 .middle-body{width: 1200px; height: 100%; margin: 0 auto;}
 .header{width: 100%; height: 60px; background: linear-gradient(to top, #676767 0%, #000 50%, #676767 100%); color: #fff;}
@@ -5,9 +6,11 @@ html, body{font-family: "Microsoft YaHei";}
 .topInfo .title{font-size: 36px; vertical-align: top;}
 .topInfo em{display: inline-block; width: 2px; height: 40px; background-color: #fff; margin: 0 50px; vertical-align: super;}
 .topInfo .des{line-height: 60px; vertical-align: top; font-size: 22px;}
-.topInfo .search{float: right; height: 38px; border: 1px solid #ccc; margin-top: 10px; border-radius: 15px;}
-.topInfo .search input{display: inline-block; width: 300px; height: 100%; vertical-align: top; border: 0; padding: 0 10px; border-radius: 15px 0 0 15px; font-size: 22px;}
-.topInfo .search i{display: inline-block; width: 40px; height: 40px; background: url("../images/share.png") no-repeat; background-position: -10px -60px;}
+.topInfo .search{float: right; height: 40px; margin-top: 10px;}
+.topInfo .search input{display: inline-block; height: 100%; width: 0; vertical-align: top; border: 0; padding: 0; border-radius: 15px 0 0 15px; font-size: 22px;}
+.topInfo .search:hover input{padding: 0 15px; width: 150px; transition: 1s .2s;}
+.topInfo .search i{display: inline-block; width: 40px; height: 38px; background: url("../images/share.png") no-repeat; background-position: -10px -60px; border: 1px solid #fff; border-radius: 15px; cursor: pointer; transition: border-radius .2s 1s;}
+.topInfo .search:hover i{border-radius: 0 15px 15px 0; transition: border-radius .2s;}
 .nav-list .nav{height: 40px;}
 .nav-list .nav li{display: inline-block; float: left; border-bottom: 5px solid; height: 100%; padding: 0 10px; width: 10%; text-align: center; margin: 0 10px;}
 .nav-list .nav li a{display: inline-block; line-height: 40px; font-size: 20px; color: #666;}
@@ -26,5 +29,9 @@ html, body{font-family: "Microsoft YaHei";}
 .nav-list li:nth-child(6):hover{background-color: deepskyblue;}
 .nav-list li:nth-child(7):hover{background-color: black;}
 .nav-list li:hover a{color: #fff;}
-.container{height: 900px; background-color: #000;background: url("../images/resume-bg.jpg") no-repeat center; background-size: cover; margin-top: 5px;}
-.container .containerBox{}
+.copyright{background: linear-gradient(to top, #676767 0%, #000 50%, #676767 100%); height: 50px;}
+.copyright p{text-align: center; line-height: 50px; font-size: 18px; color: #fff;}
+/*resume样式*/
+.container{height: 500px; background-color: #000;background: url("../images/resume-bg.jpg") no-repeat center; background-size: cover; margin-top: 5px; padding: 20px 0;}
+.container .containerBox{border-radius: 10px; background-color: rgba(255, 255, 255, .3);}
+.container .containerBox .swiper-slide{text-align: center; line-height: 500px; color: #fff; font-size: 200px;}

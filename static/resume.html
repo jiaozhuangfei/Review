@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <title>My blog</title>
     <link rel="stylesheet" href="./css/reset.min.css">
+    <link rel="stylesheet" href="./css/swiper-3.4.1.min.css">
     <link rel="stylesheet" href="./css/resume.css">
 </head>
 <body>
+<!--顶部信息-->
 <div class="header">
     <div class="topInfo middle-body">
-        <i class="logo"></i>
+        <a href="index.html"><i class="logo"></i></a>
         <span class="title">Info<b>Share</b></span>
         <em></em>
         <span class="des">A personal blog about everything.</span>
@@ -18,21 +20,40 @@
         </div>
     </div>
 </div>
+<!--导航栏部分-->
 <div class="nav-list">
     <ul class="nav middle-body">
         <li><a href="###">My resume</a></li>
         <li><a href="###">Article</a></li>
         <li><a href="###">News</a></li>
-        <li><a href="###">Movie</a></li>
+        <li><a href="movie.html">Movie</a></li>
         <li><a href="###">Music</a></li>
         <li><a href="###">Game</a></li>
         <li><a href="###">Map</a></li>
     </ul>
 </div>
+<!--中部轮播图-->
 <div class="container">
     <div class="containerBox middle-body">
-
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">Profile</div>
+                <div class="swiper-slide">Education</div>
+                <div class="swiper-slide">Experience</div>
+                <div class="swiper-slide">Skills</div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
     </div>
 </div>
+<!--底部版权-->
+<div class="copyright">
+    <p class="middle-body">&copy; 2016 InfoShare of my blog. All Rights Reserved.</p>
+</div>
+<script src="./js/jquery-3.1.1.min.js"></script>
+<script src="./js/swiper-3.4.1.jquery.min.js"></script>
+<script src="./js/resume.js"></script>
 </body>
 </html>
