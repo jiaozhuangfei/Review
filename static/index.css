@@ -1,0 +1,27 @@
+html, body{font-family: "Microsoft YaHei";}
+.middle-body{width: 1200px; height: 100%; margin: 0 auto;}
+.header{width: 100%; height: 60px; background: linear-gradient(to top, #676767 0%, #000 50%, #676767 100%); color: #fff;}
+.topInfo .logo{background: url("./images/share.png") no-repeat; display: inline-block; width: 50px; height: 50px; margin: 5px 10px 0 0; background-position: 0 0;}
+.topInfo .title{font-size: 36px; vertical-align: top;}
+.topInfo em{display: inline-block; width: 2px; height: 40px; background-color: #fff; margin: 0 50px; vertical-align: super;}
+.topInfo .des{line-height: 60px; vertical-align: top; font-size: 22px;}
+.topInfo .search{float: right; height: 38px; border: 1px solid #ccc; margin-top: 10px; border-radius: 15px;}
+.topInfo .search input{display: inline-block; width: 300px; height: 100%; vertical-align: top; border: 0; padding: 0 10px; border-radius: 15px 0 0 15px; font-size: 22px;}
+.topInfo .search i{display: inline-block; width: 40px; height: 40px; background: url("./images/share.png") no-repeat; background-position: -10px -60px;}
+.nav-list .nav{height: 40px;}
+.nav-list .nav li{display: inline-block; float: left; border-bottom: 5px solid; height: 100%; padding: 0 10px; width: 13%; text-align: center; margin: 0 10px;}
+.nav-list .nav li a{display: inline-block; line-height: 40px; font-size: 20px; color: #666;}
+.nav-list li:nth-child(1){border-bottom-color: greenyellow;}
+.nav-list li:nth-child(2){border-bottom-color: red;}
+.nav-list li:nth-child(3){border-bottom-color: lightblue;}
+.nav-list li:nth-child(4){border-bottom-color: hotpink;}
+.nav-list li:nth-child(5){border-bottom-color: lightgreen;}
+.nav-list li:nth-child(6){border-bottom-color: deepskyblue;}
+.nav-list li:nth-child(1):hover{background-color: greenyellow;}
+.nav-list li:nth-child(2):hover{background-color: red;}
+.nav-list li:nth-child(3):hover{background-color: lightblue;}
+.nav-list li:nth-child(4):hover{background-color: hotpink;}
+.nav-list li:nth-child(5):hover{background-color: lightgreen;}
+.nav-list li:nth-child(6):hover{background-color: deepskyblue;}
+.nav-list li:hover a{color: #fff;}
+
