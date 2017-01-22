@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <title>My blog</title>
     <link rel="stylesheet" href="./css/reset.min.css">
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/swiper-3.4.1.min.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/movie.css">
 </head>
 <body>
 <!--顶部信息-->
@@ -31,11 +33,28 @@
         <li><a href="###">Map</a></li>
     </ul>
 </div>
+<!--中部轮播图-->
+<div class="container">
+    <div class="containerBox middle-body">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">Profile</div>
+                <div class="swiper-slide">Education</div>
+                <div class="swiper-slide">Experience</div>
+                <div class="swiper-slide">Skills</div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+</div>
 <!--底部版权-->
 <div class="copyright">
-    <p class="middle-body">&copy; 2016 InfoShare of my blog. All Rights Reserved.</p>
+    <p class="middle-body">Copyright &copy; 2016 - InfoShare of my blog. All Rights Reserved.</p>
 </div>
 <script src="./js/jquery-3.1.1.min.js"></script>
-<script src="./js/index.js"></script>
+<script src="./js/swiper-3.4.1.jquery.min.js"></script>
+<script src="./js/movie.js"></script>
 </body>
 </html>

@@ -30,5 +30,5 @@ html, body{font-family: "Microsoft YaHei";}
 .nav-list li:nth-child(6):hover{background-color: deepskyblue;}
 .nav-list li:nth-child(7):hover{background-color: black;}
 .nav-list li:hover a{color: #fff;}
-.copyright{background: linear-gradient(to top, #676767 0%, #000 50%, #676767 100%); height: 50px; margin: 10px 0;}
+.copyright{background: linear-gradient(to top, #676767 0%, #000 50%, #676767 100%); height: 50px;}
 .copyright p{text-align: center; line-height: 50px; font-size: 18px; color: #fff;}

@@ -1,16 +1,12 @@
-var resume = function () {
-    var mySwiper = new Swiper('.swiper-container', {
-        autoplay: 3000,//可选选项，自动滑动
-        speed: 1000,
-        autoplayDisableOnInteraction : false,
-        pagination : '.swiper-pagination',
-        prevButton:'.swiper-button-prev',
-        nextButton:'.swiper-button-next',
-        loop: true
-    });
-};
+function topValue() {
+    return document.documentElement.scrollTop || document.body.scrollTop;
+}
 window.onload = function () {
-    resume();
     var $input = $('.topInfo .search input');
     $input.css('transition', '1s');
+    var $side = $('.side');
+    $side.css('top', topValue() + 100 + 'px');
+    window.onscroll = function () {
+        $side.css('top', topValue() + 100 + 'px');
+    }
 };
