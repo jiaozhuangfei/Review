@@ -5,10 +5,17 @@
     <title>Title</title>
 </head>
 <body>
-<div id="abc"></div>
+<button>点我获取数据</button>
 <script>
-    var str = 'abcdefg';
-    console.log(str.slice(-5, -2));
+    var script2 = document.createElement('script');
+    var script1 = document.getElementsByTagName('script')[0];
+    var button = document.getElementsByTagName('button')[0];
+    script2.setAttribute('src', 'http://localhost:8899' + Math.random());
+    button.onclick = function () {
+        document.body.appendChild(script2);
+        console.log(script2.innerHTML);
+        document.body.removeChild(script1);
+    }
 </script>
 </body>
 </html>
